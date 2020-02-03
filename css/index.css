@@ -6,4 +6,15 @@
   max-width: 100%;
 }
 
+body {
+  background-color: 0;
+}
+
+ #celebrationBoi {
+  width: 291px;
+  height: 211px;
+  background-image: url(/img/actioncelebrationclouds.jpg);
+  background-size: 291px 211px;
+}
+
 /*# sourceMappingURL=index.css.map */

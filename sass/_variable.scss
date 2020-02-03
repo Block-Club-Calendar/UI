@@ -1,10 +1,21 @@
                                     //Vars  
   
-//Color Scheme | Pumpkin Spice: #FF681F | Shakespear: #4EABD1 |  Coconut Cream: #F8F7DC | Dove Gray: #6D6C6C | Cod Gray: #6D6C6C
+//Color Scheme | $pumpkinSpice: #FF681F; | $shakespear: #4EABD1; |  $coconutCream: #F8F7DC; | $doveGray: #6D6C6C; | $codGray: #6D6C6C;
+
+$pumpkinSpice: #FF681F;
+$shakespear: #4EABD1;
+$codGray: #6D6C6C;
+$doveGray: #6D6C6C;
+$coconutCream: #F8F7DC;
 
 
-//Dimensions   Mobile: 320px  Tablet: 600px  Desktop:  1416px
+//Dimensions   $Mobile: (min-width:320px);  $Tablet: (min-width: 600px);  $Desktop:  (min-width: 1416px);
 
-//Font family 'Noto Sans', sans-serif
+$Mobile: '(min-width:320px)';
+$Tablet: '(min-width: 600px)';
+$Desktop:  '(min-width: 1416px)';
 
 
+//Font family $fontFam: Noto Sans, sans-serif;
+
+$fontFam: 'Noto Sans, sans-serif';
