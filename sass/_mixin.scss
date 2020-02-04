@@ -1,0 +1,23 @@
+//Layout
+
+
+
+
+    
+
+
+
+//Buttons
+
+@mixin btndefault ($width, $height, $radius) {
+    width: $width;
+    height: $height;
+    border-radius: $radius;
+    font-size: 1.4rem;
+    background-color: $pumpkinSpice;
+    color: #EFEFEF;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+}

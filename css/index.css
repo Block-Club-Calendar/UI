@@ -1,20 +1,57 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   max-width: 100%;
+  font-size: 62.5%;
 }
 
-body {
-  background-color: 0;
+h1 {
+  font-size: 2.4rem;
 }
 
- #celebrationBoi {
+p, a {
+  font-size: 1.6rem;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, p, a {
+  font-family: "Noto Sans, sans-serif";
+}
+
+button {
+  width: 251px;
+  height: 37px;
+  border-radius: 6px;
+  font-size: 1.4rem;
+  background-color: #FF681F;
+  color: #EFEFEF;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+#celebrationBoi {
   width: 291px;
   height: 211px;
   background-image: url(/img/actioncelebrationclouds.jpg);
   background-size: 291px 211px;
+}
+
+#headingOrange {
+  background-color: #FF681F;
+}
+#headingOrange h1 {
+  color: #EFEFEF;
+}
+
+#specialA {
+  color: #4EABD1;
 }
 
 /*# sourceMappingURL=index.css.map */

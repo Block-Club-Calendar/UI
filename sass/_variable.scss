@@ -11,11 +11,11 @@ $coconutCream: #F8F7DC;
 
 //Dimensions   $Mobile: (min-width:320px);  $Tablet: (min-width: 600px);  $Desktop:  (min-width: 1416px);
 
-$Mobile: '(min-width:320px)';
+$Mobile: (min-width: 320px);
 $Tablet: '(min-width: 600px)';
 $Desktop:  '(min-width: 1416px)';
 
 
 //Font family $fontFam: Noto Sans, sans-serif;
 
-$fontFam: 'Noto Sans, sans-serif';
+$fontFam: 'Noto Sans, sans-serif'; 
