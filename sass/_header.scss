@@ -7,7 +7,6 @@
     background-image: url(/img/actioncelebrationclouds.jpg);
     background-size: 291px 211px;
 
-
 }
 
 
@@ -16,11 +15,14 @@
 
     #headingOrange {
 
-        background-color: $pumpkinSpice;  
+        background-color: $pumpkinSpice; 
+        
+  
     
         h1 {
     
             color: #EFEFEF; 
+            
         }
 
 
@@ -28,9 +30,14 @@
 
 
 
+
 #specialA {
 
     color: $shakespear;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 0;
+    text-align: left;
 }
 
 

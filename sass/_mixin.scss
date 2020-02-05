@@ -8,7 +8,7 @@
 //Buttons
 
 @mixin btndefault ($width, $height, $radius) {
-
+    
     width: $width;
     height: $height;
     border-radius: $radius;
