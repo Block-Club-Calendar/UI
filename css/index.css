@@ -107,35 +107,6 @@ hr {
   overflow: visible;
 }
 
-button, input, select, textarea, optgroup {
-  font: inherit;
-}
-
-optgroup {
-  font-weight: bold;
-}
-
-button, input {
-  overflow: visible;
-}
-
-button, select {
-  text-transform: none;
-}
-
-button, [type=button], [type=reset], [type=submit] {
-  -webkit-appearance: button;
-}
-
-button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -304,10 +275,6 @@ a {
   white-space: nowrap;
 }
 
-.w3-btn:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .w3-btn, .w3-button {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -324,10 +291,6 @@ a {
 
 .w3-disabled *, :disabled * {
   pointer-events: none;
-}
-
-.w3-btn.w3-disabled:hover, .w3-btn:disabled:hover {
-  box-shadow: none;
 }
 
 .w3-badge, .w3-tag {
@@ -962,7 +925,7 @@ a {
 }
 
 .w3-container, .w3-panel {
-  padding: 0.01em 16px;
+  padding: 0;
 }
 
 .w3-panel {
@@ -1316,17 +1279,8 @@ a {
   float: right !important;
 }
 
-.w3-button:hover {
-  color: #000 !important;
-  background-color: #ccc !important;
-}
-
 .w3-transparent, .w3-hover-none:hover {
   background-color: transparent !important;
-}
-
-.w3-hover-none:hover {
-  box-shadow: none !important;
 }
 
 * {
@@ -1346,7 +1300,6 @@ a {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
- 
 }
 
 p, a {
@@ -1358,12 +1311,12 @@ a {
   text-decoration: none;
 }
 
-button {
+.w3-button {
   width: 251px;
   height: 37px;
   border-radius: 6px;
   background-color: #FF681F;
-  color: #EFEFEF;
+  color: #F8F7DC;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
@@ -1375,13 +1328,12 @@ button {
   height: 40px;
   border-radius: 10px;
   background-color: #FF681F;
-  color: #EFEFEF;
+  color: #F8F7DC;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-
 #celebrationBoi {
   width: 291px;
   height: 211px;
@@ -1393,7 +1345,7 @@ button {
   background-color: #FF681F;
 }
 #headingOrange h1 {
-  color: #EFEFEF;
+  color: #F8F7DC;
 }
 
 #specialA {

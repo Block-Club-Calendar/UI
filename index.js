@@ -1,6 +1,6 @@
 //Responsive
 
-w3.addClass('button', 'w3-container w3-center')
+w3.addClass('button', 'w3-button w3-container w3-center')
 w3.addClass('p', 'w3-padding')
 w3.addClass('p,h1,h2,h3,h4,h5,h6,a,button', 'w3-notoFam')
 w3.addClass('.Main', ' w3-cell-row')
@@ -14,7 +14,7 @@ w3.addClass('nav', 'w3-bar w3-left w3-padding')
 w3.addClass('a', 'w3-bar-item w3-medium')
 w3.addClass('.contentM', 'w3-middle w3-center')
 w3.addClass('#Join', 'w3-center w3-large')
-w3.addClass('.joinBtn', ' w3-small ')
+w3.addClass('.joinBtn', ' ')
 w3.addClass('#btnContainer', 'w3-center   w3-bar') 
 w3.addClass('.footerM, section', 'w3-padding w3-panel')
 
