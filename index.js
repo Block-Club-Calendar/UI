@@ -22,4 +22,3 @@ w3.addClass('.footerM, section', 'w3-padding w3-panel')
 
 w3.addStyle('.w3-notoFam', 'font-family', 'Noto Sans')
 w3.addStyle('button, h1', 'font-weight', 'bold')
-w3.addStyle('.aboutIMG', 'width', '50%')

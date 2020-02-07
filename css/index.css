@@ -1332,8 +1332,11 @@ article.aboutIMG {
 }
 @media (min-width: 1000px) {
   article.aboutIMG {
-    height: 6rem;
-    background-size: 30% 10rem;
+    width: 50rem;
+    height: 20rem;
+    background-size: 30% 20rem;
+    margin: 10% auto;
+    background-position: left;
   }
   article.aboutIMG h6 {
     font-weight: normal;

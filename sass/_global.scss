@@ -39,9 +39,11 @@ background-repeat: no-repeat;
 
 
 @media (min-width: 1000px){ 
-
-    height: 6rem;   
-    background-size: 30% 10rem ;
+    width: 50rem;
+    height: 20rem;
+    background-size: 30% 20rem;
+    margin: 10% auto; 
+    background-position: left;
     h6 {font-weight: normal; color: black; background-color: transparent;}
 
  
