@@ -1,7 +1,18 @@
 
 
 
+
+//Links
+
+@mixin specialLink() {
+
+    color: $shakespear;
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 0;
+    text-align: left;
     
+}
 
 
 
@@ -17,4 +28,13 @@
     -moz-border-radius: $radius;
     -ms-border-radius: $radius;
     -o-border-radius: $radius;
+}
+
+
+//images
+
+@mixin aboutImg_Set($bg_img) {
+
+background-image: $bg_img;
+    
 }

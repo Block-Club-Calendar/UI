@@ -1292,14 +1292,74 @@ a {
 }
 
 #clientOrOrg {
-  width: 320px;
-  height: 132px;
-  border: 2px solid #585858;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  width: 32rem;
+  height: 13.2rem;
+  border: 0.2rem solid #585858;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+article.aboutIMG {
+  width: 100%;
+  background-repeat: no-repeat;
+}
+@media (min-width: 320px) {
+  article.aboutIMG {
+    height: 4rem;
+    background-size: 100% 8rem;
+    margin: 0 auto;
+  }
+  article.aboutIMG h6 {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    opacity: 55%;
+  }
+}
+@media (min-width: 600px) {
+  article.aboutIMG {
+    height: 12rem;
+    background-size: 100% 12rem;
+  }
+  article.aboutIMG h6 {
+    font-weight: normal;
+    color: white;
+    background-color: none;
+  }
+}
+@media (min-width: 1000px) {
+  article.aboutIMG {
+    height: 6rem;
+    background-size: 30% 10rem;
+  }
+  article.aboutIMG h6 {
+    font-weight: normal;
+    color: black;
+    background-color: transparent;
+  }
+}
+
+article[alt=Brian].aboutIMG {
+  background-image: url(../img/staff/bclayton.jpg);
+}
+
+article[alt=Danny].aboutIMG {
+  background-image: url(../img/staff/danny.jpg);
+}
+
+article[alt=Martinez].aboutIMG {
+  background-image: url(../img/staff/martinez.jpg);
+}
+
+article[alt=Zach].aboutIMG {
+  background-image: url(../img/staff/zachary.jpg);
+}
+
+article[alt=Jashele].aboutIMG {
+  background-image: url(../img/staff/Jashell.png);
 }
 
 p, a {
@@ -1312,33 +1372,49 @@ a {
 }
 
 .w3-button {
-  width: 251px;
-  height: 37px;
-  border-radius: 6px;
+  width: 25.1rem;
+  height: 3.7rem;
+  border-radius: 0.6rem;
   background-color: #FF681F;
   color: #F8F7DC;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
 }
 
 .joinBtn {
-  width: 125px;
-  height: 40px;
-  border-radius: 10px;
+  width: 12.5rem;
+  height: 4rem;
+  border-radius: 1rem;
   background-color: #FF681F;
   color: #F8F7DC;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
+
 #celebrationBoi {
-  width: 291px;
-  height: 211px;
+  background-repeat: no-repeat;
   background-image: url(/img/actioncelebrationclouds.jpg);
-  background-size: 291px 211px;
+}
+@media (min-width: 320px) {
+  #celebrationBoi {
+    width: 29.1rem;
+    height: 21.1rem;
+    background-size: 29.1rem 21.1rem;
+  }
+}
+@media (min-width: 600px) {
+  #celebrationBoi {
+    width: 50% auto;
+  }
+}
+@media (min-width: 1000px) {
+  #celebrationBoi {
+    width: 100% auto;
+  }
 }
 
 #headingOrange {
@@ -1348,10 +1424,18 @@ a {
   color: #F8F7DC;
 }
 
-#specialA {
+#specialA, #Home {
   color: #4EABD1;
   font-weight: bold;
-  margin-right: 10px;
+  margin-right: 1rem;
+  padding: 0;
+  text-align: left;
+}
+
+#about {
+  color: #4EABD1;
+  font-weight: bold;
+  margin-right: 1rem;
   padding: 0;
   text-align: left;
 }

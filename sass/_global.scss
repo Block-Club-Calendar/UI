@@ -1,19 +1,65 @@
 //Global Settings
 
 #clientOrOrg {
-    width: 320px;
-    height: 132px; 
-    border: 2px solid #585858;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    width: 32.0rem;
+    height: 13.2rem;
+    border: .2rem solid #585858;
+    border-radius: 1.0rem;
+    -webkit-border-radius: 1.0rem;
+    -moz-border-radius: 1.0rem;
+    -ms-border-radius: 1.0rem;
+    -o-border-radius: 1.0rem;
+}
+
+ article.aboutIMG {
+
+width: 100%;
+background-repeat: no-repeat;
+
+
+
+ @media (min-width: 320px){
+
+    height: 4rem;    
+    background-size: 100% 8rem ; 
+    margin: 0 auto;
+    h6 {font-weight: bold; color:white; background-color: black; opacity: 55%;}
+     
+
   
-    
-   
+} 
+ 
+ @media (min-width: 600px){
+
+    height: 12rem;   
+    background-size: 100% 12rem ;
+    h6 {font-weight: normal; color: white; background-color: none;}
 
 }
+
+
+@media (min-width: 1000px){ 
+
+    height: 6rem;   
+    background-size: 30% 10rem ;
+    h6 {font-weight: normal; color: black; background-color: transparent;}
+
+ 
+}
+
+}
+
+
+article[alt=Brian].aboutIMG{@include aboutImg_Set(url(../img/staff/bclayton.jpg));} 
+    
+article[alt=Danny].aboutIMG {@include aboutImg_Set(url(../img/staff/danny.jpg));}
+    
+article[alt=Martinez].aboutIMG { @include aboutImg_Set(url(../img/staff/martinez.jpg));}
+    
+article[alt=Zach].aboutIMG { @include aboutImg_Set(url(../img/staff/zachary.jpg));}
+
+article[alt=Jashele].aboutIMG{@include aboutImg_Set(url(../img/staff/Jashell.png));}
+
 
 //Text
 
@@ -43,14 +89,14 @@ a {
 .w3-button { 
 
 
-    @include btndefault(251px, 37px, 6px); 
+    @include btndefault(25.1rem, 3.7rem, .6rem); 
 
 
 } 
  .joinBtn
 {
  
-    @include btndefault(125px, 40px, 10px); 
+    @include btndefault(12.5rem, 4.0rem, 1.0rem); 
 
 
 }
